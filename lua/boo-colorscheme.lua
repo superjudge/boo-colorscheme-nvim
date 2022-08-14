@@ -543,7 +543,7 @@ local colorscheme = function(c)
 
 		{ "Boolean", c.cloud2:dark(), c.none, s.NONE },
 		{ "Character", c.cloud14, c.none, s.NONE },
-		{ "Comment", c.cloud14:desaturate_to(0.2):lighten_to(0.5), c.none, s.NONE },
+		{ "Comment", c.cloud14:desaturate_to(0.2):lighten_to(0.5), c.none, s.italic },
 		{ "Conditional", c.cloud10, c.none, s.NONE },
 		{ "Constant", c.cloud4, c.none, s.NONE },
 
